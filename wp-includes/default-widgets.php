@@ -436,7 +436,7 @@ class WP_Widget_Archives extends WP_Widget {
 class WP_Widget_Meta extends WP_Widget {
 
 	public function __construct() {
-		$widget_ops = array('classname' => 'widget_meta', 'description' => __( "Login, RSS, &amp; WordPress.org links.") );
+		$widget_ops = array('classname' => 'widget_meta', 'description' => __( "Login, RSS") );
 		parent::__construct('meta', __('Meta'), $widget_ops);
 	}
 

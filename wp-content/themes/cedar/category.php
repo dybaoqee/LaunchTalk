@@ -4,7 +4,7 @@
 	 * CATEGORY TEMPLATE
 	 */
 
-	get_header(); 
+	get_header();
 
 ?>
 

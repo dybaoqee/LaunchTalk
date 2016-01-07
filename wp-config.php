@@ -79,6 +79,8 @@ $table_prefix  = 'lt_';
  */
 define('WP_DEBUG', false);
 
+define('WPLANG', 'zh_CN');
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */

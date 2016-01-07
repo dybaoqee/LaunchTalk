@@ -15,10 +15,19 @@
 			<?php } ?>
 		</div>
 		<nav class="main">
-			<?php wp_nav_menu(array('depth' => 2, 'theme_location' => 'blogheader')); ?>
-			<ul>
-				<li class="option searchnav"><span class="showsearch"><i class="fa fa-search"></i></span></li>
-				<li class="option drawernav"><span class="showdrawer"><i class="fa fa-navicon"></i></span></li>
-			</ul>
+            <div class="menu">
+                <ul><li class="page_item page-item-2 current_page_item"><a href="/news">新闻</a></li>
+                </ul>
+                <?php if(!is_user_logged_in()) { ?>
+                    <ul><li class="page_item page-item-2 current_page_item"><a href="/user/login">登陆</a></li>
+                    </ul>
+                <?php }else{ ?>
+                    <ul><li class="page_item page-item-2 current_page_item"><a href="/user/logout">退出</a></li>
+                    </ul>
+                <?php } ?>
+            </div>
+            <ul>
+                <li class="option drawernav"><span class="showdrawer"><i class="fa fa-navicon"></i></span></li>
+            </ul>
 		</nav>
 	</header>

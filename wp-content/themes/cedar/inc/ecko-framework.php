@@ -99,9 +99,13 @@
 			wp_enqueue_style('ecko_css');
 			/* JAVASCRIPT */
 			wp_register_script('ecko_js', get_template_directory_uri() . '/assets/js/theme.min.js', array('jquery'), ECKO_THEME_VERSION, true);
-			wp_enqueue_script('ecko_js');
+
+            wp_enqueue_script('ecko_js');
 			wp_enqueue_script('comment-reply');
-		}
+
+            wp_register_script('medium', get_template_directory_uri() . '/assets/js/medium-editor.min.js', array('jquery'));
+            wp_enqueue_script('medium');
+        }
 	}
 	add_action('wp_enqueue_scripts', 'ecko_enque_scripts');
 

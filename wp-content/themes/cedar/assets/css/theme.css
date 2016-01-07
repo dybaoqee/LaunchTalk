@@ -508,28 +508,6 @@ textarea {
   font-size: 14px;
 }
 
-input[type="submit"], button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  float: right;
-  padding: 12px 32px;
-  font-size: 12px;
-  border: 0;
-  border-radius: 90px;
-  background: #efefef;
-  color: #373737;
-  margin-top: 20px;
-  text-transform: uppercase;
-  -webkit-transition: color 0.3s ease-out, background 0.3s ease-out, opacity 0.3s ease-out, border-color 0.3s ease-out;
-  -moz-transition: color 0.3s ease-out, background 0.3s ease-out, opacity 0.3s ease-out, border-color 0.3s ease-out;
-  transition: color 0.3s ease-out, background 0.3s ease-out, opacity 0.3s ease-out, border-color 0.3s ease-out;
-}
-
-input[type="submit"]:hover, button:hover {
-  background: #373737;
-  color: #fff;
-}
 
 body.admin-bar .headroom {
   padding-top: 50px;
@@ -537,7 +515,6 @@ body.admin-bar .headroom {
 }
 
 body.admin-bar .drawer {
-  padding-top: 32px;
 }
 
 /*!
@@ -3206,7 +3183,6 @@ header.bloginfo.slide {
 header.bloginfo.transparent {
   background: transparent;
   border: 0;
-  padding: 35px;
   position: absolute;
 }
 
@@ -3434,7 +3410,7 @@ nav.light ul li ul:before {
 .cover {
   position: relative;
   width: 100%;
-  height: 100vh;
+  //height: 100vh;
   background: #101010;
   display: table;
   overflow: hidden;
@@ -4849,7 +4825,7 @@ footer.postinfo .relatedposts .backtotop:hover {
 .widget .searchform .submit {
   position: absolute;
   top: 18px;
-  right: 22px;
+  left: 22px;
   font-size: 13px;
   color: #858f96;
 }
