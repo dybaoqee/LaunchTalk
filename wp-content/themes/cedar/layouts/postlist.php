@@ -64,20 +64,14 @@
             <div class="newsauthor">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="avatar"><img src="/news/images/profile-chen.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
                         <div class="authorname">陈燕妮</div>
                     </button>
                 </div>
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile2.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">张小斌</div>
-                    </button>
-                </div>
-                <div class="authorcontainer">
-                    <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile5.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">强哥</div>
+                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">陈燕妮</div>
                     </button>
                 </div>
             </div>
@@ -100,14 +94,20 @@
             <div class="newsauthor">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">陈燕妮</div>
+                        <div class="avatar"><img src="/news/images/profile5.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">强哥</div>
                     </button>
                 </div>
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
                         <div class="avatar"><img src="/news/images/profile4.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
                         <div class="authorname">李姗</div>
+                    </button>
+                </div>
+                <div class="authorcontainer">
+                    <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
+                        <div class="avatar"><img src="/news/images/profile2.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">张小斌</div>
                     </button>
                 </div>
             </div>
@@ -129,14 +129,14 @@
             <div class="newsauthor">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">陈燕妮</div>
+                        <div class="avatar"><img src="/news/images/profile3.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">冯金铭</div>
                     </button>
                 </div>
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile4.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">李姗</div>
+                        <div class="avatar"><img src="/news/images/profile2.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">张小斌</div>
                     </button>
                 </div>
             </div>
@@ -158,8 +158,8 @@
             <div class="newsauthor">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">陈燕妮</div>
+                        <div class="avatar"><img src="/news/images/profile5.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">强哥</div>
                     </button>
                 </div>
                 <div class="authorcontainer">

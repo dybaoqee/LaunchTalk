@@ -95,8 +95,8 @@
                 </div>
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="images/profile2.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">张小斌</div>
+                        <div class="avatar"><img src="images/profile4.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">李姗</div>
                     </button>
                 </div>
                 <div class="authorcontainer">
@@ -134,8 +134,8 @@
                 </div>
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="images/profile4.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">李姗</div>
+                        <div class="avatar"><img src="images/profile2.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">张小斌</div>
                     </button>
                 </div>
             </div>

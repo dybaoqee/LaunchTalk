@@ -3,10 +3,22 @@
     <meta charset="UTF-8" />
     <title>L@unch Talk - Everyone was running</title>
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/cedar/style.css" />
-    <link rel="stylesheet" href="../resources/colorbox.css" />
-    <script src="../resources/jquery.min.js"></script>
-    <script src="../resources/jquery.colorbox-min.js"></script>
-    <script>
+    <link rel="stylesheet" href="/news/resources/colorbox.css" />
+    <script src="/news/resources/jquery.min.js"></script>
+    <script src="/wp-content/themes/cedar/assets/js/medium-editor.min.js"></script>
+    <script language="JavaScript">
+        $(document).ready(function(){
+            var editor = new MediumEditor('.editable', {
+                toolbar: false,
+                placeholder: {
+                    /* This example includes the default options for placeholder,
+                     if nothing is passed this is what it used */
+                    text: '你的评论'
+                }
+            });
+
+            var zz = new MediumEditor('.question, .answer');
+        });
     </script>
     <style>
         body {
@@ -250,7 +262,7 @@
             <div class="answer">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="avatar"><img src="/news/images/profile-chen.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
                         <div class="authorname">陈丹青</div>
                     </button>
                 </div>
@@ -278,7 +290,7 @@
             <div class="answer">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="avatar"><img src="/news/images/profile-chen.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
                         <div class="authorname">陈丹青</div>
                     </button>
                 </div>
@@ -315,7 +327,7 @@
             <div class="answer">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="avatar"><img src="/news/images/profile-chen.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
                         <div class="authorname">陈丹青</div>
                     </button>
                 </div>
@@ -342,7 +354,7 @@
             <div class="answer">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="avatar"><img src="/news/images/profile-chen.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
                         <div class="authorname">陈丹青</div>
                     </button>
                 </div>
@@ -370,7 +382,7 @@
             <div class="answer">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="avatar"><img src="/news/images/profile-chen.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
                         <div class="authorname">陈丹青</div>
                     </button>
                 </div>
@@ -400,7 +412,7 @@
             <div class="answer">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="avatar"><img src="/news/images/profile-chen.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
                         <div class="authorname">陈丹青</div>
                     </button>
                 </div>
@@ -427,7 +439,7 @@
             <div class="answer">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="avatar"><img src="/news/images/profile-chen.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
                         <div class="authorname">陈丹青</div>
                     </button>
                 </div>
@@ -457,7 +469,7 @@
             </div>
             <div class="card-imageWrapper ">
                 <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                    <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                    <div class="avatar"><img src="/news/images/profile-chen.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
                 </button>
             </div>
             <div class="card-content">
@@ -467,7 +479,7 @@
                     </a>
                 </h3>
                 <p class="card-description">
-                    学家，学者
+                    画家，学者
                 </p>
             </div>
         </div>
@@ -494,21 +506,25 @@
                     </a>
                 </h3>
                 <p class="card-description">
-                    著名作家
+                    专栏作家
                 </p>
             </div>
         </div>
     </div>
 
     <div class="post-comments">
-        <div class="new">你的评论</div>
+        <div class="new">
+            <div class="editable">
+
+            </div>
+        </div>
         <div class="others">
             <div style="border-bottom: 1px solid rgba(0,0,0,0.15);  font-size: 16px;">其他评论</div>
             <div class="answer">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">陈燕妮</div>
+                        <div class="avatar"><img src="/news/images/profile4.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">李珊</div>
                     </button>
                 </div>
                 <div class="answer-content">
@@ -521,8 +537,8 @@
             <div class="answer">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="/news/images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">陈燕妮</div>
+                        <div class="avatar"><img src="/news/images/profile3.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">冯金铭</div>
                     </button>
                 </div>
                 <div class="answer-content">

@@ -6,9 +6,21 @@
     <link rel="stylesheet" href="../resources/colorbox.css" />
     <script src="../resources/jquery.min.js"></script>
     <script src="../resources/jquery.colorbox-min.js"></script>
-    <script>
+    <script src="/wp-content/themes/cedar/assets/js/medium-editor.min.js"></script>
+    <script language="JavaScript">
         $(document).ready(function(){
             $(".postheadimage").colorbox({iframe:true, width:"80%", height:"80%", href:"../resources/running.html"});
+
+            var editor = new MediumEditor('.editable', {
+                toolbar: false,
+                placeholder: {
+                    /* This example includes the default options for placeholder,
+                     if nothing is passed this is what it used */
+                    text: '你的评论'
+                }
+            });
+
+            var zz = new MediumEditor('.question, .answer');
         });
     </script>
     <style>
@@ -255,8 +267,8 @@
             <div class="question">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="../images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">陈燕妮</div>
+                        <div class="avatar"><img src="../images/profile5.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">强哥</div>
                     </button>
                 </div>
                 <div class="question-content">
@@ -284,8 +296,8 @@
             <div class="question">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="../images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">陈燕妮</div>
+                        <div class="avatar"><img src="../images/profile4.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">李姗</div>
                     </button>
                 </div>
                 <div class="question-content">
@@ -323,8 +335,8 @@
             <div class="question">
                 <div class="authorcontainer">
                     <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                        <div class="avatar"><img src="../images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                        <div class="authorname">陈燕妮</div>
+                        <div class="avatar"><img src="../images/profile5.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                        <div class="authorname">强哥</div>
                     </button>
                 </div>
                 <div class="question-content">
@@ -400,24 +412,55 @@
             </div>
             <div class="card-imageWrapper ">
                 <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                    <div class="avatar"><img src="../images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                    <div class="avatar"><img src="../images/profile4.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
                 </button>
             </div>
             <div class="card-content">
                 <h3 class="card-name">
                     <a class="link link--primary" href="" property="cc:attributionName" title="Go to the profile of Dan Gillmor" aria-label="Go to the profile of Dan Gillmor" rel="author cc:attributionUrl" data-user-id="545f8095edf9" dir="auto">
-                        陈燕妮
+                        李姗
                     </a>
                 </h3>
                 <p class="card-description">
-                    著名作家
+                    美食家，兼职记者
+                </p>
+            </div>
+        </div>
+
+        <div class="card-user">
+            <div class="u-floatRight">
+                <span class="followState js-followState buttonSet-inner" data-user-id="545f8095edf9">
+                    <button class="button button--primary button--small u-noUserSelect button--withChrome button--follow js-followButton" data-action="toggle-subscribe-user" data-action-value="545f8095edf9" data-action-source="footer_card_follow" data-subscribe-source="footer_card">
+                        <span class="button-label  button-defaultState js-buttonLabel">
+                            关注
+                        </span>
+                    </button>
+                </span>
+            </div>
+            <div class="card-imageWrapper ">
+                <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
+                    <div class="avatar"><img src="../images/profile5.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                </button>
+            </div>
+            <div class="card-content">
+                <h3 class="card-name">
+                    <a class="link link--primary" href="" property="cc:attributionName" title="Go to the profile of Dan Gillmor" aria-label="Go to the profile of Dan Gillmor" rel="author cc:attributionUrl" data-user-id="545f8095edf9" dir="auto">
+                        强哥
+                    </a>
+                </h3>
+                <p class="card-description">
+                    工程师
                 </p>
             </div>
         </div>
     </div>
 
     <div class="post-comments">
-        <div class="new">你的评论</div>
+        <div class="new">
+            <div class="editable">
+
+            </div>
+        </div>
         <div class="others">
             <div style="border-bottom: 1px solid rgba(0,0,0,0.15);  font-size: 16px;">其他评论</div>
             <div class="answer">
