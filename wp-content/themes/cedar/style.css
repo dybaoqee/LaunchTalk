@@ -346,3 +346,38 @@ a:visited, a {
 div:focus {
 	outline: none;
 }
+
+.related-article{
+	background: #f2f2f2;
+}
+
+.related-article .articles {
+	margin: 0px auto;
+	width: 720px;
+}
+
+.related-title {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: .1em;
+	color: rgba(0,0,0,0.44);
+	border-bottom: solid 1px rgba(0,0,0,0.15);
+	padding-top: 30px;
+}
+
+.post-title {
+	font-size: 42px;
+	font-weight: bold;
+	padding: 60px 0;
+	line-height: normal;
+}
+
+figure {
+	margin: 0px;
+}
+
+.qa figure img {
+	margin: 0 auto;
+	display: block;
+	padding: 20px 0px;
+}

@@ -29,7 +29,7 @@
         }
         .post-content{
             margin: 10px auto;
-            width: 960px;
+            width: 720px;
         }
         .postheadimage {
             position: relative;
@@ -44,11 +44,6 @@
         }
         .postheadimage img {
             width: 100%;
-        }
-        .post-title {
-            font-size: 42px;
-            font-weight: bold;
-            padding: 60px 0;
         }
         .post-quote {
             color: rgba(35, 37, 40, 0.7);
@@ -96,10 +91,6 @@
         .answer-content {
             color: rgba(35, 37, 40, 0.7);
         }
-        .qa img{
-            margin: 0 auto;
-            display: block;
-        }
         .qa .image-caption {
             text-align: center;
             font-size: 12px;
@@ -108,7 +99,7 @@
 
         .post-authors {
             margin: 10px auto;
-            width: 960px;
+            width: 720px;
             border-bottom: 1px solid rgba(0,0,0,0.15);
         }
 
@@ -172,17 +163,12 @@
 
         .post-comments {
             margin: 10px auto;
-            width: 960px;
-        }
-
-        .related-article{
-            margin: 10px auto;
-            width: 960px;
+            width: 720px;
         }
 
         .newspost {
             margin: 10px auto;
-            width: 960px;
+            width: 720px;
         }
         .newsauthor {
             margin: 40px 0px;
@@ -190,15 +176,6 @@
         }
         .newsbrief {
             font-size: 14px;
-        }
-        .related-title {
-            text-transform: uppercase;
-            font-weight: 400;
-            letter-spacing: .1em;
-            color: rgba(0,0,0,0.44);
-            border-bottom: solid 1px rgba(0,0,0,0.15);
-            padding-top: 50px;
-            padding-bottom: 15px
         }
 
         .authorcontainer {
@@ -494,54 +471,56 @@
     </div>
 
     <div class="related-article">
-        <div class="related-title">相关文章</div>
-        <div class="newspost">
-            <div class="newsinfo">
-                <h2 class="newstitle">
-                    伊斯兰教的起源
-                </h2>
-                <p class="newsbrief">
-                    伊斯兰教起源可以追溯到７世纪的沙特阿拉伯。因此伊斯兰是几大世界宗教中最年轻的。先知穆罕默德（约公元５７０－６３２年）于公元６１０年在据说被天使探望之后创立伊斯兰教。默罕默德口授了伊斯兰圣书《古兰经》，穆斯林教徒认为《古兰经》在默罕默德之前就已存在，是安拉的圣语。                </p>
-                <div class="newsauthor">
-                    <div class="authorcontainer">
-                        <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                            <div class="avatar"><img src="../images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                            <div class="authorname">陈燕妮</div>
-                        </button>
-                    </div>
-                    <div class="authorcontainer">
-                        <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                            <div class="avatar"><img src="../images/profile4.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                            <div class="authorname">李姗</div>
-                        </button>
+        <div class="articles">
+            <div class="related-title">相关文章</div>
+            <div class="newspost">
+                <div class="newsinfo">
+                    <h2 class="newstitle">
+                        伊斯兰教的起源
+                    </h2>
+                    <p class="newsbrief">
+                        伊斯兰教起源可以追溯到７世纪的沙特阿拉伯。因此伊斯兰是几大世界宗教中最年轻的。先知穆罕默德（约公元５７０－６３２年）于公元６１０年在据说被天使探望之后创立伊斯兰教。默罕默德口授了伊斯兰圣书《古兰经》，穆斯林教徒认为《古兰经》在默罕默德之前就已存在，是安拉的圣语。                </p>
+                    <div class="newsauthor">
+                        <div class="authorcontainer">
+                            <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
+                                <div class="avatar"><img src="../images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                                <div class="authorname">陈燕妮</div>
+                            </button>
+                        </div>
+                        <div class="authorcontainer">
+                            <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
+                                <div class="avatar"><img src="../images/profile4.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                                <div class="authorname">李姗</div>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div style="clear: both;"></div>
+                <div style="clear: both;"></div>
 
-            <div class="newsinfo">
-                <h2 class="newstitle">
-                    中国在南海的布局
-                </h2>
-                <p class="newsbrief">
-                    近期的动态表明，中国在南海争端上的‘控局’的能力得到了急剧加强。中国的南海政策不妨更自信一些。”北京大学中国战略研究中心的副研究员胡波表示。
-                </p>
-                <div class="newsauthor">
-                    <div class="authorcontainer">
-                        <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                            <div class="avatar"><img src="../images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                            <div class="authorname">陈燕妮</div>
-                        </button>
-                    </div>
-                    <div class="authorcontainer">
-                        <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
-                            <div class="avatar"><img src="../images/profile3.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
-                            <div class="authorname">冯金铭</div>
-                        </button>
+                <div class="newsinfo">
+                    <h2 class="newstitle">
+                        中国在南海的布局
+                    </h2>
+                    <p class="newsbrief">
+                        近期的动态表明，中国在南海争端上的‘控局’的能力得到了急剧加强。中国的南海政策不妨更自信一些。”北京大学中国战略研究中心的副研究员胡波表示。
+                    </p>
+                    <div class="newsauthor">
+                        <div class="authorcontainer">
+                            <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
+                                <div class="avatar"><img src="../images/profile1.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                                <div class="authorname">陈燕妮</div>
+                            </button>
+                        </div>
+                        <div class="authorcontainer">
+                            <button class="button button--circle button--borderless button--boxShadowBorder button--withChrome is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
+                                <div class="avatar"><img src="../images/profile3.png" class="avatar-image avatar-image--smaller" alt="avatar" data-no-retina="true"></div>
+                                <div class="authorname">冯金铭</div>
+                            </button>
+                        </div>
                     </div>
                 </div>
+                <div style="clear: both;"></div>
             </div>
-            <div style="clear: both;"></div>
         </div>
     </div>
 </div>
